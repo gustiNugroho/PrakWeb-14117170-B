@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>tugas1</title>
+    <link rel="stylesheet" href="tugas 1.css">
+    <style media="screen">
+      .kolom1{
+        float: left;
+        width: 197px;
+        height: 255px;
+        border-left: 3px solid;
+        border-right: 3px solid;
+        background-color: #ffff01;
+      }
+      li{
+        margin: 4px;
+      }
+      .kolom2{
+        float: left;
+        width: 584px;
+        height: auto;
+        border-right: 3px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="https://cdn-2.tstatic.net/style/foto/bank/images/synchronize-fest-2016_20160909_125641.jpg" style="width: 784px; height: 200px;">
+    </header>
+    <div class="kolom1" style="background-color: #ffff01;">
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Data Peserta</a></li>
+        <li><a href="#">Burgerkill</a></li>
+        <li><a href="#">Seringai </a></li>
+        <li><a href="#">DeadSquad</a></li>
+      </ul>
+    </div>
+    <div class="kolom2" style="background-color: #d99896; padding-bottom: 6px;">
+      <p>Synchronize Fest merupakan festival musik multi-genre tahunan berskala nasional yang mengundang puluhan ribu audience untuk merayakan keberagaman jenis musik hidup di lima panggung selama tiga hari, tiga malam, menikmati suguhan 100-an pertunjukan terkurasi dari artis-artis terfavorit dan terbaik tanah air yang datang dari dekade ’70-an, ’80-an, ’90-an hingga 2000-an. Seluruh genre musik populer bakal ditampilkan di Synchronize Fest.
+      </p>
+      <p style="font-weight: bold; text-align: center;">Form Pendaftaran</p>
+      <form action="data.php" method="post">
+      <p>
+        <label>Nama         : </label>
+        <input type="text" name="nama" placeholder="Nama Lengkap">
+      </p>
+      <p>
+        <label>Asal         : </label>
+        <input type="text" name="asal" placeholder="Asal Daerah">
+      </p><p>
+        <label>Kategori     : </label>
+        <input type="text" name="umur" placeholder="Kategori">
+        <input type="submit" name="submit" value="submit" style="margin: 0 30px;">
+      </p>
+    </div>
+    <footer>
+      <p style="text-align: center;">&copy; 2020 Gusti Nugroho 14117170</p>
+    </footer>
+  </body>
+</html>
