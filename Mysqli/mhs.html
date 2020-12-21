@@ -1,0 +1,63 @@
+<HTML>
+    <HEAD>
+        <title>Daftar Mahasiswa</title>
+    </HEAD>
+    <BODY>
+        <h3><b>TAMBAH DATA</b></h3>
+        <form action="tambah.php" method="POST">
+            <table>
+            <tr>
+                <td>NRP : </td>
+                <td><input type="text" name="nrp" size="15" maxlength="40"></td>
+            </tr>
+            <tr>
+                <td>NAMA : </td>
+                <td><input type="text" name="nama" size="15"maxlength="40"></td>
+            </tr>
+            <tr>
+                <td>Foto : </td>
+                <td><input type="file" name="file_foto" accept="image/*"></td>
+            </tr>
+            <tr>
+                <td>JURUSAN : </td>
+                <td>
+                    <select name="id_jurusan">
+                        <option value="TL">Telekomunikasi</option>
+                        <option value="EL">Teknik Elektro</option>
+                        <option value="IF">Teknik Informatika</option>
+                        <option value="TG">Teknik Geofisika</option>
+                        <option value="GT">Teknik Geomatika</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="submit" value="tambah">SIMPAN</button></td>
+            </tr>
+        </table>
+        </form>
+
+		<h3>===========================<br>
+        SEARCH DATA</h3>
+        <form  action="cari.php" method="POST">
+            <table>
+                <tr>
+                    <td>NAMA : </td>
+                    <td><input type="text" name="nama" size="15" maxlength="40"></td>
+                    <td><input type="submit" name="cari" value="Cari Data"></td>
+                </tr>
+            </table>
+        </form>
+
+		<h3>===========================<br>
+        HAPUS DATA</h3>
+        <form action="hapus.php" method="POST">
+            <table>
+                <tr>
+                    <td>NRP : </td>
+                    <td><input type="text" name="nrp" size="15" maxlength="40"></td>
+                    <td><input type="submit" name="hapus" value="Hapus Data"></td>
+                </tr>
+            </table>
+        </form>
+    </BODY>
+</HTML>
