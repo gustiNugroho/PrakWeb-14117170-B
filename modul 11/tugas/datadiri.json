@@ -1,0 +1,43 @@
+{
+    "DataDiri": {
+        "nama": {
+            "awal": "Gusti",
+            "akhir": "Nugroho"
+        },
+
+        "jenisKelamin": "Laki-laki",
+
+        "alamat": {
+            "jalan": "Jl.Hasan 3",
+            "kecamatan": "Sukarame",
+            "kelurahan": "Korpri Raya",
+            "kota" : "Bandar Lampung"
+        },
+
+        "mediaSosial": {
+            "facebook": "Gusti Nugroho",
+            "instagram": "wehguss"
+        },
+
+        "saudara": {},
+
+        "orangTua": {
+            "bapak": {
+                "nama": {
+                    "awal": "Slamet",
+                    "akhir": "Rahardjo"
+                }
+            },
+            "ibu": {
+                "nama": {
+                    "awal": "Muryati",
+                    "akhir": " "
+                }
+            }
+        },
+
+        "hobi": {
+            "kegiatan": ["Basketan","Rebahan"]
+        }
+    }
+}
